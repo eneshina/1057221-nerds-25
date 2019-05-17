@@ -5,8 +5,80 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/index-logo.svg" width="185" height="85" alt="Логотип дизайн-студии Nёrds">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="clients.html">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="basket-navigation">
+          <li class="basket-link">Корзина</li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="container">
+      <h1 class="visually-hidden">Дизайн-студия Nёrds</h1>
+      
+      <section class="amenities">
+        <h2 class="visually-hidden">Услуги</h2>
+        
+        <ul class="amenities-list">
+          <li class="amenities-item">
+            <h3>Веб-сайты</h3>
+            <p>
+              <img src="img/websites.jpg" width="300" height="155" alt="Иллюстрация сайта">"
+            </p>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <p>
+              <a href="catalog.html"><span class="button">Заказать</span></a>
+            </p>
+          </li>
+            
+          <li class="amenities-item">
+            <h3>Приложения</h3>
+            <p>
+              <img src="img/applications.jpg" width="300" height="155" alt="Иллюстрация смартфонов">"
+            </p>
+            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <p>
+              <a href="catalog.html"><span class="button">Заказать</span></a>
+            </p>
+          </li>
+            
+          <li class="amenities-item">
+            <h3>Презентации</h3>
+            <p>
+              <img src="img/presentation.jpg" width="300" height="155" alt="Иллюстрация презентации">"
+            </p>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <p>
+              <a href="catalog.html"><span class="button">Заказать</span></a>
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    
+    <footer class="main-footer">
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <p>
+        <b>Давайте дружить, это выгодно!</b><br>
+        Скидка 10% из социальных сетей
+      </p>
+    </footer>
+ 
   </body>
 </html>
